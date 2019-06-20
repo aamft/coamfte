@@ -212,7 +212,8 @@ fieldset .PanelHead h2 {
   border-radius: 5px;
   line-height: 30px;
   color: #fff;
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: bold; }
 
 .acrp .toggler em {
   display: inline-block;
