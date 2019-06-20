@@ -248,8 +248,23 @@ h2:hover {
 .col-boxes.accred-resource .ContentBorder > div:first-child {
   height: 290px;
   overflow: hidden; }
+.col-boxes .ContentBorder {
+  padding: 0;
+  border-color: #4560AC; }
+  .col-boxes .ContentBorder:hover {
+    border-color: #25408C; }
+    .col-boxes .ContentBorder:hover h2 {
+      background-color: #25408C; }
 .col-boxes h2 {
-  height: 80px; }
+  background-color: #4560AC;
+  margin: 0;
+  border-color: #4560AC;
+  padding: 5px 10px;
+  height: 87px !important;
+  font-weight: bold; }
+.col-boxes h2 a {
+  color: white;
+  text-decoration: none !important; }
 
 /* _shared.scss */
 /* Tabbed navigation */

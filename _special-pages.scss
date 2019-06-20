@@ -116,15 +116,38 @@ h2:hover{
 
 /*============ ACCREDITATION RESOURCES & ABOUT COAMFTE ========*/
 .col-boxes{
-	&.about-coamfte .ContentBorder > div:first-child{
-		height: 350px;
-		overflow: hidden;
-	}
-	&.accred-resource .ContentBorder > div:first-child{
-		height: 290px;
-		overflow: hidden;
-	}
-	h2{
-	  height: 80px;
-	}
+  &.about-coamfte .ContentBorder > div:first-child{
+    height: 350px;
+    overflow: hidden;
+  }
+  &.accred-resource .ContentBorder > div:first-child{
+    height: 290px;
+    overflow: hidden;
+  }
+  .ContentBorder{
+    padding: 0;
+    border-color: #4560AC;
+
+      &:hover{
+        border-color: #25408C;
+
+        h2{
+        background-color: #25408C;
+      }
+    }
+  }
+  h2{
+    background-color: #4560AC;
+    margin: 0;
+    border-color: #4560AC;//#bbb;
+    padding: 5px 10px;
+    height: 87px !important;
+    font-weight: bold;
+
+  }
+  h2 a{
+    color: white;//#037;
+    text-decoration: none !important;
+
+  }
 }
